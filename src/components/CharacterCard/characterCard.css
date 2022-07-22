@@ -1,6 +1,7 @@
 article {
-    background-color: var(--mainLight);
-    color: #2a3c5f;
+    background-color: #36151f4d;
+    backdrop-filter: blur(10px);
+    color: var(--mainDark);
     border-radius: 10px;
     border: #282c34 solid 3px;
     box-shadow: 10px 5px 15px black;
