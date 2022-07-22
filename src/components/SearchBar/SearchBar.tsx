@@ -7,7 +7,7 @@ export default function SearchBar({...props}) {
             <p>Search...</p>
             <input type="search"
                    onChange={(event) => {
-                       props.setSearchInput(event.target.value);
+                       props.onSearch(event.target.value);
                    }}
             />
         </section>

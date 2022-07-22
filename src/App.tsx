@@ -1,10 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './global.css';
 import headerBackground from './headerBackground.png'
 import Gallery from "./components/Gallery/Gallery";
 import data from './lib/data.json'
+import SearchBar from "./components/SearchBar/SearchBar";
 
 function App() {
+    const [searchInput, setSearchInput] = useState('');
 
     return (
         <div className="App">
@@ -15,7 +17,9 @@ function App() {
                      width="640px"/>
             </header>
             <main>
-                <Gallery characterList={data}/>
+                <SearchBar onSearch={setSearchInput}/>
+
+                <Gallery characterList={data} searchText={searchInput}/>
             </main>
         </div>
     );
