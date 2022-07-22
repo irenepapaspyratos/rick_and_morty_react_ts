@@ -1,10 +1,9 @@
 article {
+    background-color: #f3faff;
     color: #2a3c5f;
-    padding-right: 30px;
-    padding-left: 30px;
     border-radius: 10px;
     border: #282c34 solid 3px;
-    box-shadow: 10px 10px 5px darkgrey;
+    box-shadow: 10px 5px 15px black;
     width: 15rem;
 }
 

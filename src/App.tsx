@@ -2,9 +2,10 @@ import React from 'react';
 import './global.css';
 import headerBackground from './headerBackground.png'
 import Gallery from "./components/Gallery/Gallery";
-
+import data from './lib/data.json'
 
 function App() {
+
     return (
         <div className="App">
             <header className="App-header">
@@ -14,6 +15,7 @@ function App() {
                      width="640px"/>
             </header>
             <main>
+                <Gallery characterList={data}/>
             </main>
         </div>
     );

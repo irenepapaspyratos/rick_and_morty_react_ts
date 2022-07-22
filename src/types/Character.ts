@@ -4,7 +4,7 @@ type Character = {
     name: string,
     status: string,
     gender: string,
-    originName: string,
+    origin: { name: string },
 }
 
 export default Character;
