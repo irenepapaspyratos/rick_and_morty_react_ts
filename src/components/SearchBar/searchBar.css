@@ -1,0 +1,13 @@
+input {
+    width: 25%;
+    height: 2rem;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: var(--mainLight);
+    font-size: larger;
+}
